@@ -1,0 +1,22 @@
+@import url("3-header.css");
+@import url("3-footer.css");
+
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #484848;
+    font-size: 14px;
+    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+}
+header #logo {
+    background: url(../images/logo.png) no-repeat;
+    height: 100%;
+    left: 20px;
+    position: absolute;
+    width: 20%;
+}
