@@ -4,9 +4,6 @@ footer {
     border-top: 1px #CCCCCC solid;
     display: flex;
     justify-content: center;
-    bottom: 0;
-    position: absolute;
-}
-p{
-    vertical-align: middle;
+    margin-top: auto;
+    align-items: center;
 }
