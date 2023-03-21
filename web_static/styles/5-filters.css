@@ -24,9 +24,12 @@ button {
     height: 100%;
     width: 25% ;
     margin: 0 10px;
+    line-height: 1px;
+    padding-top: 10px;
 }
 .location {
     border-right: 1px solid #DDDDDD;
+    
 }
 h3{
     font-weight: 600;
