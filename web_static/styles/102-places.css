@@ -1,0 +1,169 @@
+article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px  #FF5A5F solid; 
+    border-radius: 4px;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+h1{
+
+    font-size: 30px;
+    color: #000;
+    width: 100%;
+    margin-left: 20px;
+}
+.places{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.price_by_night{
+    color: #FF5A5F;
+    border: 4px solid #FF5A5F;
+    border-radius: 50%;
+    margin-left: auto;
+    height: 70px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    line-height: 75px;
+
+}
+.information{
+    height: 80px;
+    border-top: 1px #DDDDDD solid;
+    border-bottom: 1px #DDDDDD solid;
+    display: flex;
+    justify-content:space-around;
+}
+
+.max_guest {
+    background: url(../images/icon_group.png) no-repeat;
+}
+.number_rooms{
+    background: url(../images/icon_bed.png) no-repeat;
+}
+
+.number_bathrooms{
+    background: url(../images/icon_bath.png) no-repeat;
+}
+.number_bathrooms, .number_rooms,.max_guest {
+    width: 100px;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.user {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.user span {
+    font-weight: bold;
+}
+
+.description {
+    text-align: left;
+}
+section.places .amenities, section.places .reviews{
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    text-align: left;
+}
+.amenities ul li {
+    
+    height: 20px;
+    line-height: 25px;
+    padding-left: 35px;
+}
+.amenities h2, .reviews h2{
+    font-size: 16px;
+    border-bottom: 1px #DDDDDD solid;
+    text-align: left;
+}
+.reviews h3{
+    font-size: 14p;
+}
+.reviews p{
+    font-size: 12p;
+}
+.Pet{
+    background: url(../images/icon_pets.png) no-repeat;
+    background-position:left;
+    background-size: contain;
+}
+.TV{
+    background: url(../images/icon_tv.png) no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+.Wifi{
+    background: url(../images/icon_wifi.png) no-repeat;
+    background-position: left;
+    background-size: contain;
+} 
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+@media screen and (max-width: 500px) {
+    .places h1{
+        font-size: 25px;
+    }
+
+    .places article{
+        width: 350px;
+        height: 105vh;
+    }
+
+    .places article h2{
+        font-size: 25px;
+    }
+    
+    .price_by_night{
+        height: 50px;
+        font-size: 25px;
+        min-width: 50px;
+        right: 10px;
+        top: 10px;
+    }
+
+    section.places .amenities{
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places h1{
+        font-size: 25px;
+    }
+
+    .places article{
+        width: 250px;
+        height: 105vh;
+    }
+
+    .places article h2{
+        font-size: 25px;
+    }
+    
+    .price_by_night{
+        padding: 3px 3px;
+        height: 50px;
+        font-size: 20px;
+        min-width: 50px;
+        right: 10px;
+    }
+
+    section.places .amenities{
+        margin-left: 5px;
+    }
+}
