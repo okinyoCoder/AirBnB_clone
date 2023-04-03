@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """Module representing class BaseModel that defines all 
 common attributes/methods for other classes
 """
@@ -29,8 +30,7 @@ class BaseModel:
                 return formatted string if succesful
         """
         
-        return "[{}] {} {}"./
-        format(self.__class__.__name__,  self.id, self.__dict__)
+        return "[{}] {} {}".format(self.__class__.__name__,  self.id, self.__dict__)
 
     def save(self):
         """Method that pdates the public instance attribute updated_at 
